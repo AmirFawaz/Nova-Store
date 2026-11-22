@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova Store | Discover Your Style</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#">
+      <span class="brand-mark">N</span>
+      nova<span>.</span>
+    </a>
+    <nav class="top-nav">
+      <a href="#hero">Home</a>
+      <a href="#products">Shop</a>
+    </nav>
+    <div class="header-actions">
+        <button class="icon-btn" id="btn">⌕</button>
+        <input type="text" id="search" class="hidden">
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="content">
+      <section class="hero" id="hero">
+        <div class="hero-copy">
+          <span class="eyebrow">THE NOVA COLLECTION</span>
+          <h1>
+            Good things.<br>
+            <em>Great finds.</em>
+          </h1>
+          <p>
+            Discover thoughtfully selected pieces made to bring a little more joy to your everyday.
+          </p>
+          <a class="primary-btn" href="#products">
+            Explore collection <span>→</span>
+          </a>
+        </div>
+        <div class="hero-art">
+          <div class="hero-circle"></div>
+          <div class="floating-label">
+            NEW<br>SEASON
+          </div>
+          <div class="hero-caption">CURATED FOR YOU — 2026</div>
+        </div>
+      </section>
+
+      <section class="products-section" id="products">
+        <div class="section-top">
+          <div>
+            <span class="eyebrow">HANDPICKED FOR YOU</span>
+            <h2>Featured products</h2>
+          </div>
+        </div>
+        <div class="product-grid" id="product-grid"></div>
+      </section>
+
+      <footer id="about">
+        <span>© <span id="displayYear"></span> Nova Store</span>
+        <span>Made for the everyday.</span>
+      </footer>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
